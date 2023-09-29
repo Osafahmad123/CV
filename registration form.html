@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    </style>
+<body>
+<h1>Registration form</h1>
+<fieldset>
+    <legend>FORM</legend>
+<h2>Personal info</h2>
+<form name="Registration form" method="post" action="process.php">
+<input type="text" name="name"placeholder="Name" required id="name">&nbsp;&nbsp;&nbsp;
+<input  type="text" name="father name" placeholder="Father name" required id="father name">
+<p>Your gender</p>
+<input type="radio" name="gender"value="Male">Male
+<input type="radio" name="gender"value="female">Female<br><br>
+<input type="number" name="age"placeholder="Age" required id="number"><br><br>
+<label for="city">choose your city</label>
+
+<select name="city" id="city">
+    <option value="lahore">lahore</option>
+    <option value="rabwah">rabwah</option>
+    <option value="islamabad">islamabad</option>
+    <option value="karachi">karachi</option>
+    <option value="rawalpindi">rawalpindi</option>
+    <option value="multan">multan</option>
+    <option value="f.s.d">f.s.d</option>
+
+</select>
+<p>Birth date</p>
+<input type="date"name="birth"placeholder="date of birth" required id="birth"><br><br>  
+<input type="text"name="address"placeholder="Address" required id="address"><br><br>    
+<input type="email"name="mail"placeholder="email" required id="email">&nbsp;&nbsp;
+<input type="tel"name="tel"placeholder="phone no" required id="tel">
+<h2>Professional info</h2>
+<input type="text"name="job title"placeholder="Job title" required id="value"><br><br>
+<textarea name="text message" cols="47" rows="5" placeholder="Job description"required id="text message"></textarea>
+<p>website link</p>
+<input type="url" name="url" placeholder="url" required id="url">
+<p>Education</p>
+<input type="text" name="matric"placeholder="Matric" required id="text"><br><br>  
+<input type="text" name="fsc"placeholder="F.sc" required id="text"><br><br>  
+<input type="text" name="bs"placeholder="B.s" required id="text"><br>
+<p>Degree/certificate</p> 
+<input type="text" name="degree"placeholder="degree" required id="text"><br>
+<p>Hobbies</p>
+<input type="checkbox" name="football" value="football">football<br>
+<input type="checkbox" name="basketball" value="basketball">basketball<br>
+<input type="checkbox" name="cricket" value="cricket">cricket<br>
+<input type="checkbox" name="badminton" value="badminton">badminton<br>
+<p>Favourite color</p>
+<input type="color" name="color" required id="color"><br>
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile"><br><br>
+<label for="points"></label>
+<input type="range" id="points" name="points"><br><br>
+<input type="time" name="time" required id="time">
+</fieldset>
+
+
+
+</form>
+
+</body>
+
+
+</html>
